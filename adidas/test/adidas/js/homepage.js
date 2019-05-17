@@ -1,34 +1,9 @@
 $(function(){
-   
 	$.ajax({
 		type:"get",					//请求方法
 		url:"js/homepage.json",			//接口
 		async:true,					//是否异步
 		success:function (data) {	//请求成功执行
-		var mySwiper = new Swiper ('.swiper-container', {
-		    direction: 'horizontal', // 垂直切换选项
-		    loop: true, // 循环模式选项
-		    autoplay:true,
-		    autoplay: {
-		        disableOnInteraction: false,
-		    },
-		    
-		    // 如果需要分页器
-		    pagination: {
-		      el: '.swiper-pagination',
-		    },
-		    
-		    // 如果需要前进后退按钮
-		    navigation: {
-		      nextEl: '.swiper-button-next',
-		      prevEl: '.swiper-button-prev',
-		    },
-		    
-		    // 如果需要滚动条
-		    scrollbar: {
-		      el: '.swiper-scrollbar',
-		    },
-	   })
 //			console.log(data.Shoetype[0])
 //			console.log(data.shangpin[0])
 			/*$.each(data.Shoetype1,function (i,t) {
@@ -103,14 +78,12 @@ $(function(){
 					"text-align":"left",
 					"font-weight":"bold"
 				})
-				$('.drop-down-menu-body-left-content:eq(3)').append("<div id='line'></div>")
-				$('#line').css({
-					"display":"block",
-					"width":"30px",
-					"height":"1px",
-					"background-color":"#C7CBCC",
+				$('.drop-down-menu-body-left ul:eq(0) div:eq(3)').css({
+					"border-bottom":"1px solid #C8CBCC",
+					"width":"60px",
+					"text-align":"left",
 					"margin-left":"0px",
-					"margin-top":"10px",
+					"margin-bottom":"0px",
 					"margin-right":"0px"
 				})
 			})
@@ -189,7 +162,7 @@ $(function(){
 			console.log(sd)
 		}
 	});
-	console.log($('.drop-down-menu-body-left-content:eq(3)'))
+	console.log($('.search-word:eq(0) ul'))
 	$('.Extention:eq(5)').css({
 		"display":"inline-block",
 		"width":"72px",
