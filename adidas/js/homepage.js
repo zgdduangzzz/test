@@ -1,9 +1,33 @@
 $(function(){
+   
 	$.ajax({
 		type:"get",					//请求方法
-		url:"js/index.json",			//接口
+		url:"js/homepage.json",			//接口
 		async:true,					//是否异步
 		success:function (data) {	//请求成功执行
+//		var mySwiper = new Swiper ('.swiper-container', {
+//		    direction: 'horizontal', // 垂直切换选项
+//		    loop: true, // 循环模式选项
+//		    autoplay : {
+//		    	delay:3000
+//		    },
+//		    
+//		    // 如果需要分页器
+//		    pagination: {
+//		      el: '.swiper-pagination',
+//		    },
+//		    
+//		    // 如果需要前进后退按钮
+//		    navigation: {
+//		      nextEl: '.swiper-button-next',
+//		      prevEl: '.swiper-button-prev',
+//		    },
+//		    
+//		    // 如果需要滚动条
+//		    scrollbar: {
+//		      el: '.swiper-scrollbar',
+//		    },
+//	    })
 //			console.log(data.Shoetype[0])
 //			console.log(data.shangpin[0])
 			/*$.each(data.Shoetype1,function (i,t) {
@@ -255,103 +279,4 @@ $(function(){
 	$('.banner-close').on('click',function () {
 		$('.banner-fixed-bottom').prop('style','display: none;');
 	});
-	$("h4").eq(1).click(function(){
-		$("h4").eq(1).css("color","#000")
-		$("h4").eq(1).css("border-bottom","2px solid #000")
-		$("h4").eq(0).css("color","#c8cbcc")
-		$("h4").eq(0).css("border-bottom","2px solid #c8cbcc")
-		$("span").eq(1).text("邮箱或手机号")
-		$("span").eq(2).text("密码")
-		$("button").eq(0).css("display","none")
-		$("span").eq(3).text("记住我的信息")
-		$(".main-left-top-a").css("display","block")
-	})
-	
-	$("h4").eq(0).click(function(){
-		$("h4").eq(0).css("color","#000")
-		$("h4").eq(0).css("border-bottom","2px solid #000")
-		$("h4").eq(1).css("color","#c8cbcc")
-		$("h4").eq(1).css("border-bottom","2px solid #c8cbcc")
-		$("span").eq(1).text("手机号")
-		$("span").eq(2).text("手机验证码")
-		$("button").eq(0).css("display","block")
-		$("span").eq(3).text("记住手机号")
-		$(".main-left-top-a").css("display","none")
-	})
-	
-	$("button").eq(0).click(function(){
-		alert("要也不给你!")
-	})
-	
-	$("button").eq(1).click(function(){
-		window.open("index.html")
-	})
-	
-	$(".main-left-top-a").click(function(){
-		alert("自己设的还会忘?!")
-	})
-	
-	$(".main-top-ul-li-a").click(window.history.back(-1))
-	
-	$(".main-left-bottom-ul-li-img").click(function(){
-		alert("该功能暂不开放")
-	})
-	$(".footer-bottom-ul-l-li").eq(1).css("margin","0 12px");
-	$(".footer-bottom-ul-l-li").eq(3).css("margin","0 12px");
-	$(".footer-bottom-ul-l-li").eq(5).css("margin","0 12px");
-	$('.icon-company:eq(0)').css({
-		"background-image":"url(img/adids.png)",
-	});
-	$('.icon-company:eq(1)').css({
-		"background-image":"url(img/gydd.png)",
-	});
-	$('.icon-company:eq(2)').css({
-		"background-image":"url(img/gyzh.png)",
-		"height":"25px"
-	});
-	$('.icon-company:eq(3)').css({
-		"background-image":"url(img/gyzf.png)",
-	});
-	$('.icon-company:eq(4)').css({
-		"background-image":"url(img/wlps.png)",
-	});
-	$('.icon-company:eq(5)').css({
-		"background-image":"url(img/thh.png)",
-	});
-	$('.icon-company:eq(6)').css({
-		"background-image":"url(img/gxyzfw.png)",
-	});
-	$('#order').next().css({
-		"margin-left":"0",
-	});
-	$('.help-nav-items').first().css({
-		"margin-left":"0",
-	});
-	$('.help-nav-items').mousedown(function () {
-		$(this).find('ul').toggle().parent().siblings('li').find('ul').hide();
-		$('.help-nav-items').prop("style"," background: #FFF;margin-left: 0;");
-		$(this).prop("style"," background: #f9f9f9;margin-left: 0;");
-	});
-	$('.article-faq-width .search-page-content .help-categories-content .contentasset').first().css({
-		"padding-bottom": "35px",
-	    "margin-bottom": "44px",
-	    "border-bottom": "1px dotted #c8cbcc",
-	    "display": "inline-block",
-	    "float": "left",
-	    "width": "990px"
-	});
-	$('.help-container img:eq(0)').css({
-		"position": "absolute",
-	    "right": "28%",
-	    "top": "0"
-	});
-	$('.icon-arrow-right-long img:eq(0)').css({
-		"padding-bottom": "8px"
-	});
-	$('.help-myaccount-icon:eq(0) a').css({
-		"background-image": "url(img/bb.png)"
-	});
-	$('.help-myaccount-icon:eq(1) a').css({
-		"background-image": "url(img/xx.png)"
-	});
-});
+})

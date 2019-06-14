@@ -1,0 +1,92 @@
+$(function(){
+	$(".main-top-ul-li").eq(0).mouseover(function(){
+		$(".main-top-ul-li-p").eq(0).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(1).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(2).css("color","#025f8e")
+		$(".titme").eq(0).css("color","#025f8e")
+	})
+	$(".main-top-ul-li").eq(0).mouseout(function(){
+		$(".main-top-ul-li-p").eq(0).css("color","#000")
+		$(".main-top-ul-li-p").eq(1).css("color","#000")
+		$(".main-top-ul-li-p").eq(2).css("color","#000")
+		$(".titme").eq(0).css("color","#000")
+	})
+	
+	$(".main-top-ul-li").eq(1).mouseover(function(){
+		$(".main-top-ul-li-p").eq(3).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(4).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(5).css("color","#025f8e")
+		$(".titme").eq(1).css("color","#025f8e")
+	})
+	$(".main-top-ul-li").eq(1).mouseout(function(){
+		$(".main-top-ul-li-p").eq(3).css("color","#000")
+		$(".main-top-ul-li-p").eq(4).css("color","#000")
+		$(".main-top-ul-li-p").eq(5).css("color","#000")
+		$(".titme").eq(1).css("color","#000")
+	})
+	
+	$(".main-top-ul-li").eq(2).mouseover(function(){
+		$(".main-top-ul-li-p").eq(6).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(7).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(8).css("color","#025f8e")
+		$(".titme").eq(2).css("color","#025f8e")
+	})
+	$(".main-top-ul-li").eq(2).mouseout(function(){
+		$(".main-top-ul-li-p").eq(6).css("color","#000")
+		$(".main-top-ul-li-p").eq(7).css("color","#000")
+		$(".main-top-ul-li-p").eq(8).css("color","#000")
+		$(".titme").eq(2).css("color","#000")
+	})
+	
+	$(".main-top-ul-li").eq(3).mouseover(function(){
+		$(".main-top-ul-li-p").eq(9).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(10).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(11).css("color","#025f8e")
+		$(".titme").eq(3).css("color","#025f8e")
+	})
+	$(".main-top-ul-li").eq(3).mouseout(function(){
+		$(".main-top-ul-li-p").eq(9).css("color","#000")
+		$(".main-top-ul-li-p").eq(10).css("color","#000")
+		$(".main-top-ul-li-p").eq(11).css("color","#000")
+		$(".titme").eq(3).css("color","#000")
+	})
+	
+	$(".main-top-ul-li").eq(4).mouseover(function(){
+		$(".main-top-ul-li-p").eq(12).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(13).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(14).css("color","#025f8e")
+		$(".titme").eq(4).css("color","#025f8e")
+	})
+	$(".main-top-ul-li").eq(4).mouseout(function(){
+		$(".main-top-ul-li-p").eq(12).css("color","#000")
+		$(".main-top-ul-li-p").eq(13).css("color","#000")
+		$(".main-top-ul-li-p").eq(14).css("color","#000")
+		$(".titme").eq(4).css("color","#000")
+	})
+	
+	$(".main-top-ul-li").eq(5).mouseover(function(){
+		$(".main-top-ul-li-p").eq(15).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(16).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(17).css("color","#025f8e")
+		$(".titme").eq(5).css("color","#025f8e")
+	})
+	$(".main-top-ul-li").eq(5).mouseout(function(){
+		$(".main-top-ul-li-p").eq(15).css("color","#000")
+		$(".main-top-ul-li-p").eq(16).css("color","#000")
+		$(".main-top-ul-li-p").eq(17).css("color","#000")
+		$(".titme").eq(5).css("color","#000")
+	})
+	
+	$(".main-top-ul-li").eq(7).mouseover(function(){
+		$(".main-top-ul-li-p").eq(18).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(19).css("color","#025f8e")
+		$(".main-top-ul-li-p").eq(20).css("color","#025f8e")
+		$(".titme").eq(6).css("color","#025f8e")
+	})
+	$(".main-top-ul-li").eq(7).mouseout(function(){
+		$(".main-top-ul-li-p").eq(18).css("color","#000")
+		$(".main-top-ul-li-p").eq(19).css("color","#000")
+		$(".main-top-ul-li-p").eq(20).css("color","#000")
+		$(".titme").eq(6).css("color","#000")
+	})
+})

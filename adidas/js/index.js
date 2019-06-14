@@ -179,7 +179,7 @@ $(function(){
 				})
 			})*/
 			$.each(data.Carefulrecommendationtop,function (i,t) {
-				$("<div class='drop-down-menu-body-left-content'><a href='#'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(0)')
+				$("<div class='drop-down-menu-body-left-content'><a  class='WDNMD'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(0)')
 				$('.drop-down-menu-body-left-content').css({
 					"text-decoration":"none",
 					"text-align":"left",
@@ -202,7 +202,7 @@ $(function(){
 				})
 			})
 			$.each(data.Carefulrecommendationbottom,function (i,t) {
-				$("<div class='drop-down-menu-body-left-content'><a href='#'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(0)')
+				$("<div class='drop-down-menu-body-left-content'><a class='WDNMD'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(0)')
 				$('.drop-down-menu-body-left-content').css({
 					"text-decoration":"none",
 					"text-align":"left",
@@ -214,7 +214,7 @@ $(function(){
 				})
 			})
 			$.each(data.footwear,function (i,t) {
-				$("<div class='drop-down-menu-body-left-content'><a href='#'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(1)')
+				$("<div class='drop-down-menu-body-left-content'><a class='WDNMD'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(1)')
 				$('.drop-down-menu-body-left-content').css({
 					"text-decoration":"none",
 					"text-align":"left",
@@ -226,7 +226,7 @@ $(function(){
 				})
 			})
 			$.each(data.clothes,function (i,t) {
-				$("<div class='drop-down-menu-body-left-content'><a href='#'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(2)')
+				$("<div class='drop-down-menu-body-left-content'><a class='WDNMD'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(2)')
 				$('.drop-down-menu-body-left-content').css({
 					"text-decoration":"none",
 					"text-align":"left",
@@ -238,7 +238,7 @@ $(function(){
 				})
 			})
 			$.each(data.Accessories,function (i,t) {
-				$("<div class='drop-down-menu-body-left-content'><a href='#'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(3)')
+				$("<div class='drop-down-menu-body-left-content'><a class='WDNMD'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(3)')
 				$('.drop-down-menu-body-left-content').css({
 					"text-decoration":"none",
 					"text-align":"left",
@@ -250,7 +250,7 @@ $(function(){
 				})
 			})
 			$.each(data.RelatedSearches,function (i,t) {
-				$("<li><a href='#'>"+t+"</a></li>").appendTo('.search-word:eq(0) ul')
+				$("<li><a class='WDNMD'>"+t+"</a></li>").appendTo('.search-word:eq(0) ul')
 				$('.search-word:eq(0) ul li').css({
 					"width":"80px",
 					"height":"22px",
@@ -2048,5 +2048,29 @@ $(function(){
 	});
 	$('.footer-bottom-ul-l li:eq(7)').css({
 		"width": "38.2%",
+	});
+	$('.article-guess-you-Iike .style-guess-you-Iike .swiper-container .swiper-wrapper .swiper-slide .thumbnail').mouseenter(function () {
+		$(this).css({
+			"border":"solid 1px rgb(217,220,221)"
+		});
+	}).mouseleave(function () {
+		$(this).css({
+			"border":"solid 1px #FFF"
+		});
+	});
+	$('.article-week-best .style-guess-you-Iike .swiper-container .swiper-wrapper .swiper-slide .thumbnail').mouseenter(function () {
+		$(this).css({
+			"border":"solid 1px rgb(217,220,221)"
+		});
+	}).mouseleave(function () {
+		$(this).css({
+			"border":"solid 1px #FFF"
+		});
+	});
+	$('.WDNMD').click(function () {
+		alert("你点NM呢,WDNMD");
+	});
+	$('.Outsidetheborder').mousedown(function () {
+		alert("你点NM呢,WDNMD");
 	});
 })

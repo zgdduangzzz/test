@@ -20,6 +20,7 @@ img{
 	border: 0;
 	vertical-align: middle;
 	max-width: 100%;
+	cursor: pointer;
 }
 ul li{
 	list-style: none;
@@ -752,6 +753,7 @@ ul li{
 }
 .thumbnail {
     display: block;
+    border: 1px solid transparent;
 }
 .gallery-swiper-style .style-guess-you-Iike .swiper-container .swiperwrapper .swiper-slide a {
     text-align: center;
@@ -1171,7 +1173,6 @@ ul li{
     font-size: 0;
     text-align: center;
     position: relative;
-    margin-top: 0;
     z-index: 6;
     bottom: 2px;
 }
@@ -1226,6 +1227,7 @@ ul li{
     border-radius: 100%;
     background: #000;
     opacity: .2;
+    margin-top: 20px;
 }
 /*.style-guess-you-Iike .swiper-container .swiper-button-prev.swiper-button-disabled {
     background-position: -360px -50px;

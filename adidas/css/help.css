@@ -747,6 +747,8 @@ a {
 	max-width: 65%;
 	min-width: 980px;
 	padding: 0 1.5%;
+	height: 100%;
+	margin: 0 auto;
 }
 
 .footer-top-ul-li{
@@ -1203,14 +1205,6 @@ input, textarea, select, button, meter, progress {
 .icon-arrow-right-long{
 	margin-right: 0px;
 }
-.icon-arrow-right-long img{
-	padding-bottom: 8px;
-}
-.help-container img{
-	position: absolute;
-	right: 280px;
-	top: 0;
-}
 .article-faq-width .search-page-content .help-container {
     max-width: 990px;
     margin: 0 auto;
@@ -1223,14 +1217,6 @@ input, textarea, select, button, meter, progress {
     line-height: 24px;
     margin-bottom: 20px;
     text-align: left;
-}
-.article-faq-width .search-page-content .help-categories-content .contentasset {
-    padding-bottom: 35px;
-    margin-bottom: 44px;
-    border-bottom: 1px dotted #c8cbcc;
-    display: inline-block;
-    float: left;
-    width: 990px;
 }
 .float-clearfix {
     clear: both!important;
@@ -1386,4 +1372,123 @@ label {
 }
 #promotion{
 	margin-left: 0;
+}
+.article-faq-width .search-page-content .help-myaccount {
+    border-top: 1px solid #e3e5e5;
+    border-bottom: 1px solid #e3e5e5;
+    position: relative;
+    margin-bottom: 50px;
+    height: 386px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box{
+    height: 384px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-left {
+    padding: 22px 0;
+    float: left;
+    width: 50%;
+    padding-right: 23px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-left .contentasset h2 {
+    margin-bottom: 15px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-left .contentasset .help-myaccount-text {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 22px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-left .contentasset .help-myaccount-text p{
+    text-align: left;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-left .contentasset .help-myaccount-buttons {
+    width: 55%;
+    margin-left: 0;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-left .contentasset .help-myaccount-buttons a:nth-child(1) {
+    margin-bottom: 20px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-left .contentasset .help-myaccount-buttons a {
+    display: inline-flex;
+    font-size: 16px;
+}
+.gl-cta {
+    line-height: 45px;
+    height: 42px;
+    position: relative;
+    color: #FFF;
+    cursor: pointer;
+    padding: 0 21px;
+}
+.gl-cta--full-width {
+    width: 100%;
+    justify-content: space-between;
+}
+.color-bright-blue {
+    background: #000!important;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right {
+    padding: 22px 0;
+    float: right;
+    width: 50%;
+    background: #f9f9f9;
+    padding-left: 19px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .contentasset h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    height: 44px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .contentasset h3 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-support {
+    padding: 17px 0;
+    border-top: 1px dotted #e3e5e5;
+    border-bottom: 1px dotted #e3e5e5;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-support p.help-myaccount-support-tit {
+    margin-bottom: 14px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-support p {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-support p.help-myaccount-support-tiem {
+    font-size: 14px;
+    color: #888;
+    line-height: 14px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-text {
+    padding: 20px 0;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-text div:nth-child(1) {
+    margin-bottom: 10px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-text div {
+    height: 50px;
+    text-align: left;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-text div span.help-myaccount-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-text div span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-text div span i {
+    width: 50px;
+    height: 50px;
+}
+.article-faq-width .search-page-content .help-myaccount .help-myaccount-box .help-myaccount-right .customer-care-first .help-myaccount-text div span.help-myaccount-cont a {
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
 }
