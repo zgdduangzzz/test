@@ -1,7 +1,7 @@
 $(function(){
 	$.ajax({
 		type:"get",					//请求方法
-		url:"js/land-register.js",			//接口
+		url:"js/land-register.json",			//接口
 		async:true,					//是否异步
 		success:function (data) {	//请求成功执行
 //			console.log(data.Shoetype[0])
@@ -67,7 +67,7 @@ $(function(){
 				})
 			})*/
 			$.each(data.Carefulrecommendationtop,function (i,t) {
-				$("<div class='drop-down-menu-body-left-content'><a href='#'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(0)')
+				$("<div class='drop-down-menu-body-left-content'><a class='WDNMD'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(0)')
 				$('.drop-down-menu-body-left-content').css({
 					"text-decoration":"none",
 					"text-align":"left",
@@ -90,7 +90,7 @@ $(function(){
 				})
 			})
 			$.each(data.Carefulrecommendationbottom,function (i,t) {
-				$("<div class='drop-down-menu-body-left-content'><a href='#'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(0)')
+				$("<div class='drop-down-menu-body-left-content'><a class='WDNMD'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(0)')
 				$('.drop-down-menu-body-left-content').css({
 					"text-decoration":"none",
 					"text-align":"left",
@@ -102,7 +102,7 @@ $(function(){
 				})
 			})
 			$.each(data.footwear,function (i,t) {
-				$("<div class='drop-down-menu-body-left-content'><a href='#'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(1)')
+				$("<div class='drop-down-menu-body-left-content'><a class='WDNMD'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(1)')
 				$('.drop-down-menu-body-left-content').css({
 					"text-decoration":"none",
 					"text-align":"left",
@@ -114,7 +114,7 @@ $(function(){
 				})
 			})
 			$.each(data.clothes,function (i,t) {
-				$("<div class='drop-down-menu-body-left-content'><a href='#'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(2)')
+				$("<div class='drop-down-menu-body-left-content'><a class='WDNMD'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(2)')
 				$('.drop-down-menu-body-left-content').css({
 					"text-decoration":"none",
 					"text-align":"left",
@@ -126,7 +126,7 @@ $(function(){
 				})
 			})
 			$.each(data.Accessories,function (i,t) {
-				$("<div class='drop-down-menu-body-left-content'><a href='#'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(3)')
+				$("<div class='drop-down-menu-body-left-content'><a class='WDNMD'>"+t+"</a></div>").appendTo('.drop-down-menu-body-left ul:eq(3)')
 				$('.drop-down-menu-body-left-content').css({
 					"text-decoration":"none",
 					"text-align":"left",
@@ -138,7 +138,7 @@ $(function(){
 				})
 			})
 			$.each(data.RelatedSearches,function (i,t) {
-				$("<li><a href='#'>"+t+"</a></li>").appendTo('.search-word:eq(0) ul')
+				$("<li><a class='WDNMD'>"+t+"</a></li>").appendTo('.search-word:eq(0) ul')
 				$('.search-word:eq(0) ul li').css({
 					"width":"80px",
 					"height":"22px",
@@ -294,5 +294,27 @@ $(function(){
 	
 	$(".main-left-bottom-ul-li-img").click(function(){
 		alert("该功能暂不开放")
+	})
+	
+	$('.WDNMD').click(function () {
+		alert('WDNMD')
+	})
+	$('#WDNMD').click(function () {
+		alert('WDNMD')
+	})
+	$('#WGNMD').click(function () {
+		alert('WDNMD')
+	})
+	$('#XPC').click(function () {
+		alert('WDNMD')
+	})
+	$('#DNM').click(function () {
+		alert('WDNMD')
+	})
+	$('#a').click(function () {
+		alert('WDNMD')
+	})
+	$('#b').click(function () {
+		alert('WDNMD')
 	})
 })

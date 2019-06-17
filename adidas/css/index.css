@@ -424,7 +424,7 @@ ul li{
 	height: 14px;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	right: 13.85%;
 	background: url(../img/XT.png);
 	-webkit-transform:translateY(-50%);
 }

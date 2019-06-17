@@ -2,7 +2,7 @@ $(function(){
    
 	$.ajax({
 		type:"get",					//请求方法
-		url:"js/homepage.json",			//接口
+		url:"json/homepage.json",			//接口
 		async:true,					//是否异步
 		success:function (data) {	//请求成功执行
 //		var mySwiper = new Swiper ('.swiper-container', {

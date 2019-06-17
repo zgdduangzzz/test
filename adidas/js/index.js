@@ -62,6 +62,7 @@ $(function(){
 			grabCursor : true,
 		    autoplay: {
 		        disableOnInteraction: true,
+    			delay: 6000,//1秒切换一次
 		    },
 		    
 		    // 如果需要分页器
@@ -88,13 +89,9 @@ $(function(){
 		    direction: 'horizontal', // 垂直切换选项
 		    loop: false, // 循环模式选项
 		    effect : 'slide',
-		    autoplay:true,
 		    slidesPerView : 4,
 			slidesPerGroup : 4,
 			grabCursor : true,
-		    autoplay: {
-		        disableOnInteraction: true,
-		    },
 		    
 		    // 如果需要分页器
 		    pagination: {
@@ -2070,7 +2067,7 @@ $(function(){
 	$('.WDNMD').click(function () {
 		alert("你点NM呢,WDNMD");
 	});
-	$('.Outsidetheborder').mousedown(function () {
+	$('.Outsidetheborder').click(function () {
 		alert("你点NM呢,WDNMD");
 	});
 })
